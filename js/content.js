@@ -1,7 +1,15 @@
-console.log("extension is running!")
+var fontArray = [
+    "'Amatic SC', cursive",
+    "'Anton', sans-serif",
+    "'Libre Barcode 39 Extended', cursive"];
+selectFont = fontArray[Math.floor(Math.random() * fontArray.length)];
+$('.sqdOP.yWX7d._8A5w5.ZIAjV').css('font-family', selectFont);
+$('.sqdOP.yWX7d._8A5w5.ZIAjV').css('letter-spacing', '-3px');
 
-// TRY: updating the text content of an element or set of elements on one or more pages
-
-// TRY: adding a click event listener to an element that changes the background of that element to a new color
-
-// TRY: using a mouseenter event listener to update text to something new.
+var fontArray2 = [
+    "'Amatic SC', cursive",
+    "'Anton', sans-serif",
+    "'Libre Barcode 39 Extended', cursive"];
+selectFont2 = fontArray2[Math.floor(Math.random() * fontArray2.length)];
+$('.eo2As').css('font-family', selectFont2);
+$('.eo2As').css('letter-spacing', '-5px');

@@ -9,7 +9,7 @@
             "matches": ["https://*.instagram.com/*", "https://*.facebook.com/*"],
             "allFrames": true,
             "js": ["/js/jquery.js", "/js/content.js"],
-            "css": ["/css/style.css"]
+            "css": ["/css/style.css", "/css/font.css"]
        }
      ],
     "action": {
