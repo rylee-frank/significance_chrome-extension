@@ -69,15 +69,12 @@
 /* Referenced joya:Jquery function to generate Random    font Size & Color 
 http://jsfiddle.net/joya/7ys9s5b1/*/
 
-
-var idVar = setInterval(() => { 
-              
-function randomNumberGenerator(min,max)
+function variables(){
+    
+    function randomNumberGenerator(min,max)
 {
 return Math.floor(Math.random()*(max-min+1)+min);
 }
-var mintimer= 5000;
-var maxtimer = 15000;
     
 var minFontSize = 10;
 var maxFontSize = 32;
@@ -98,6 +95,7 @@ $('h3').css("fontSize", randomNumberGenerator(minFontSize2, maxFontSize2));
 
 $('span').css("fontSize", randomNumberGenerator(minFontSize2, maxFontSize2));
 
+$('.eebAO').css("fontSize", randomNumberGenerator(minFontSize2, maxFontSize2));    
 var minFontSpacing2 = -3;
 var maxFontSpacing2 = 10;
 
@@ -130,4 +128,26 @@ var letterColor3 = [
     "pink",];
 letterColor3 = letterColor3[Math.floor(Math.random() * letterColor3.length)];
 $('h3').css('color', letterColor3);
-}, 1500); 
+}   
+//function init(){
+//    variables();
+//    var legibility = function(){
+//        var rand = Math.round(Math.random() * (10000 - 800)) + 500; // generate new time (between 3sec and 500"s)
+//        setInterval(legibility, rand);
+//    }
+//    legibility();
+//
+////var idVar = setInterval(() => {            
+//
+////}, 1500); 
+//}
+//$(function(){
+//    init();
+//});
+    var keepLooping = true;
+    (function ontimeout(){
+        if(keepLooping){
+            variables();
+            setTimeout(ontimeout, Math.random() * 10000);
+        }
+    })();
