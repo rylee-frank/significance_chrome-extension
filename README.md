@@ -2,9 +2,9 @@
 
 What elements contribute to the classic social media experience? Is it the insight into friends' lives, the feeling of excitement when you receive a notification for a like or comment, or is it that the individual enjoys the power of leaving comments whether they are positive or negative? 
 
-No matter the answer, the content visible on the webpage will influence how you understand and interpret the information. If the username is illegible, does it change how you interact with the post? Do you ignore it, like it because the image is cool, or do you look to see what other people are doing? Is the caption necessary or does it change your perspective on their post? 
+No matter the answer, the content visible on the webpage will **influence** how you understand and interpret the information. If the username is illegible, does it change how you interact with the post? Do you ignore it, like it because the image is cool, or do you look to see what other people are doing? Is the caption necessary or does it change your perspective on their post? 
 
-The words are there for a reason – to convince or direct the viewer to understand their post in a specific manner. This plug-in will reduce the power of these words. By adjusting the legibility of the sentences, the plug-in will present a social media site that does not allow you to have complete access to all the written content. Color and size are being adjusted to further limit legibility or to draw focus to different elements. This will force the user to base their decisions on different elements. This plug-in reduces the significance of words because it makes them illegible. If the user cannot read the information, they have to interpret it from what is left. 
+The words are there for a reason – to convince or direct the viewer to understand their post in a specific manner. This plug-in will reduce the **power** of these words. By adjusting the legibility of the sentences, the plug-in will present a social media site that does not allow you to have complete access to all the written content. Color and size are being adjusted to further limit legibility or to draw focus to different elements. This will force the user to base their decisions on different elements. This plug-in reduces the **significance** of words because it makes them illegible. If the user cannot read the information, they have to **interpret** it from what is left. 
 
 ## THE REFERENCES THAT SAVED ME
 
@@ -17,5 +17,7 @@ The following code helped me set random intervals for the font size, color and l
 
 ### Alexander Mills: Randomize setInterval
 [Randomize setInterval](https://stackoverflow.com/questions/6962658/randomize-setinterval-how-to-rewrite-same-random-after-random-interval )
+
+
 
 Copyright 2021 Rylee Frank: University of Lethbridge - Dynamic Web
