@@ -18,3 +18,4 @@ The following code helped me set random intervals for the font size, color and l
 ### Alexander Mills: Randomize setInterval
 [Randomize setInterval](https://stackoverflow.com/questions/6962658/randomize-setinterval-how-to-rewrite-same-random-after-random-interval )
 
+Copyright 2021 Rylee Frank: University of Lethbridge - Dynamic Web
