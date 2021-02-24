@@ -1,6 +1,6 @@
 # SIGNIFICANCE: the meaning to be found in words or events
 
-What elements contribute to the classic social media experience? Is it the insight into friends' lives, the feeling of excitement when you receive a notification for a like or comment, or is it simply the ability to share one’s life? Does the individual enjoy the power of leaving comments whether they are positive or negative? 
+What elements contribute to the classic social media experience? Is it the insight into friends' lives, the feeling of excitement when you receive a notification for a like or comment, or is it that the individual enjoys the power of leaving comments whether they are positive or negative? 
 
 No matter the answer, the content visible on the webpage will influence how you understand and interpret the information. If the username is illegible, does it change how you interact with the post? Do you ignore it, like it because the image is cool, or do you look to see what other people are doing? Is the caption necessary or does it change your perspective on their post? 
 

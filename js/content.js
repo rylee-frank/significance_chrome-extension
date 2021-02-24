@@ -23,10 +23,10 @@ function variables(){
     /*               LETTER SPACING               */
     
     var minFontSpacing = -9;
-    var maxFontSpacing = 6;
+    var maxFontSpacing = 15;
         $('a').css("letter-spacing", randomNumberGenerator(minFontSpacing, maxFontSpacing));
     var minFontSpacing2 = -3;
-    var maxFontSpacing2 = 10;
+    var maxFontSpacing2 = 17;
         $('span').css("letter-spacing", randomNumberGenerator(minFontSpacing2, maxFontSpacing2));
 
 
