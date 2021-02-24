@@ -11,10 +11,10 @@ The words are there for a reason – to convince or direct the viewer to underst
 The following reference gave me a starting point for coding the arrays that allowed me to randomly select the size and color of the font. The reason I choose to reference this code over the other examples is because it allowed me to set minimum and maximum values for the changes. This provided some control on the overall appearance of the changes.
 
 ### joya:Jquery function to generate Random font Size & Color 
-[LINK](http://jsfiddle.net/joya/7ys9s5b1/ "Random Font Size & Color")
+[Random Font Size & Color](http://jsfiddle.net/joya/7ys9s5b1/)
 
 The following code helped me set random intervals for the font size, color and letter spacing to change. This allowed the extension to feel more organic because of the various times between changes whereas a set interval felt very static and mechanical. By adjusting different variables, I was able to customize the speed to suit my project. 
 
 ### Alexander Mills: Randomize setInterval
-[LINK](https://stackoverflow.com/questions/6962658/randomize-setinterval-how-to-rewrite-same-random-after-random-interval "Randomize setInterval")
+[Randomize setInterval](https://stackoverflow.com/questions/6962658/randomize-setinterval-how-to-rewrite-same-random-after-random-interval )
 
