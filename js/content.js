@@ -24,17 +24,11 @@ function variables(){
     
     var minFontSpacing = -9;
     var maxFontSpacing = 6;
-
-    $('a').css("letter-spacing", randomNumberGenerator(minFontSpacing, maxFontSpacing));
-    
+        $('a').css("letter-spacing", randomNumberGenerator(minFontSpacing, maxFontSpacing));
     var minFontSpacing2 = -3;
     var maxFontSpacing2 = 10;
+        $('span').css("letter-spacing", randomNumberGenerator(minFontSpacing2, maxFontSpacing2));
 
-    $('span').css("letter-spacing", randomNumberGenerator(minFontSpacing2, maxFontSpacing2));
-
-//REFERENCE
-//html5andblog: Random Web Font From Array - JQuery
-//https://codepen.io/html5andblog/pen/mygJNw
 
     /*               FONT COLOR              */    
     
@@ -44,37 +38,36 @@ function variables(){
         "#8B9E9D",
         "#D7FCFB",
         "BLACK",
-        "WHITE",];
-    letterColor = letterColor[Math.floor(Math.random() * letterColor.length)];
+        "WHITE"
+    ];
+        letterColor = letterColor[Math.floor(Math.random() * letterColor.length)];
+        $('a').css('color', letterColor);
+        $('.eebAO').css('color', letterColor);
+    var letterColor2 = [
+        "#79C8C8",
+        "#B6D1D0",
+        "#8B9E9D",
+        "#D7FCFB",
+        "BLACK",
+        "WHITE"
+    ];
+        letterColor2 = letterColor2[Math.floor(Math.random() * letterColor2.length)];
+        $('span').css('color', letterColor2);
 
-    $('a').css('color', letterColor);
-    $('.eebAO').css('color', letterColor);
-
-var letterColor2 = [
-    "#79C8C8",
-    "#B6D1D0",
-    "#8B9E9D",
-    "#D7FCFB",
-    "BLACK",
-    "WHITE",];
-    
-letterColor2 = letterColor2[Math.floor(Math.random() * letterColor2.length)];
-    
-$('span').css('color', letterColor2);
-
-var letterColor3 = [
-    "#79C8C8",
-    "#B6D1D0",
-    "#8B9E9D",
-    "#D7FCFB",
-    "BLACK",
-    "WHITE",];
-letterColor3 = letterColor3[Math.floor(Math.random() * letterColor3.length)];
-$('h3').css('color', letterColor3);
+    var letterColor3 = [
+        "#79C8C8",
+        "#B6D1D0",
+        "#8B9E9D",
+        "#D7FCFB",
+        "BLACK",
+        "WHITE",
+    ];
+        letterColor3 = letterColor3[Math.floor(Math.random() * letterColor3.length)];
+        $('h3').css('color', letterColor3);
 }   
-/*  REFERENCE
-Alexander Mills: Randomize setInterval
-https://stackoverflow.com/questions/6962658/randomize-setinterval-how-to-rewrite-same-random-after-random-interval*/
+//REFERENCE
+//Alexander Mills: Randomize setInterval
+//https://stackoverflow.com/questions/6962658/randomize-setinterval-how-to-rewrite-same-random-after-random-interval
     var keepLooping = true;
     (function ontimeout(){
         if(keepLooping){

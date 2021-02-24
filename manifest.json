@@ -1,7 +1,7 @@
 {
     "manifest_version": 2, 
     "name": "Significance",
-    "description": "It is time to question what is on social media. This plug-in will explore the impact and significance content has on a user's experience and understanding.",
+    "description": "It is time to question what is on social media. This plug-in will explore the impact and significance written words have on a user's experience and understanding.",
     "version": "1.0",
     "permissions": ["activeTab"],
     "content_scripts": [
@@ -11,15 +11,6 @@
             "js": ["/js/jquery.js", "/js/content.js"],
             "css": ["/css/style.css", "/css/font.css"]
        }
-     ],
-    "action": {
-        "default_icon": {
-            "32":"/images/icon.png"
-        },
-        "default_popup": "popup.html"
-    },
-    "web_accessible_resources": [ 
-        "images/*.jpg",
-        "images/*.png" 
-     ] 
+     ]
+
 }
