@@ -68,11 +68,17 @@
 //
 /* Referenced joya:Jquery function to generate Random    font Size & Color 
 http://jsfiddle.net/joya/7ys9s5b1/*/
+
+
+var idVar = setInterval(() => { 
+              
 function randomNumberGenerator(min,max)
 {
 return Math.floor(Math.random()*(max-min+1)+min);
 }
-
+var mintimer= 5000;
+var maxtimer = 15000;
+    
 var minFontSize = 10;
 var maxFontSize = 32;
 
@@ -83,8 +89,12 @@ var maxFontSpacing = 6;
 
 $('a').css("letter-spacing", randomNumberGenerator(minFontSpacing, maxFontSpacing));
 
+$('abbr').css("fontSize", randomNumberGenerator(minFontSize2, maxFontSize2));
+
 var minFontSize2 = 14;
 var maxFontSize2 = 48;
+
+$('h3').css("fontSize", randomNumberGenerator(minFontSize2, maxFontSize2));
 
 $('span').css("fontSize", randomNumberGenerator(minFontSize2, maxFontSize2));
 
@@ -104,3 +114,20 @@ var letterColor = [
 letterColor = letterColor[Math.floor(Math.random() * letterColor.length)];
 
 $('a').css('color', letterColor);
+
+var letterColor2 = [
+    "white",
+    "black",
+    "light-grey",
+    "pink",];
+letterColor2 = letterColor2[Math.floor(Math.random() * letterColor2.length)];
+$('span').css('color', letterColor2);
+
+var letterColor3 = [
+    "white",
+    "black",
+    "light-grey",
+    "pink",];
+letterColor3 = letterColor3[Math.floor(Math.random() * letterColor3.length)];
+$('h3').css('color', letterColor3);
+}, 1500); 
